@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.b{
+    
+}
+.container{
+	
+}
+.p{
+	border: 1px solid #000;
+    box-sizing: border-box;
+    background: pink;
+}
+.p h3{
+   color: aqua;
+}
+.p p{
+
+}
+.scroll{
+		max-height: 450px;
+		overflow: scroll;
+	}
+
+@media (min-width: 768px) {
+.scroll{
+	max-height: 300px;
+	overflow: scroll;
+}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.scroll{
+	max-height: 350px;
+	overflow: scroll;
+}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .scroll{
+	max-height: 300px;
+	overflow: scroll;
+}
+ }
